@@ -98,15 +98,15 @@ with open(file_to_save, "w") as txt_file:
             # And, set the winning_candidate equal to the candidate's name.
             winning_candidate = candidate
 
-# Print the winning candidates' results to the terminal
-winning_candidate_summary = ( 
-    f"-----------------------------\n"
-    f"Winning Vote Count: {winning_count:,}\n"
-    f"Winning Percentage: {winning_percentage:.1f}%\n"
-    f"Winner: {winning_candidate}\n"
-    f"-----------------------------\n")
+    # Print the winning candidates' results to the terminal
+    winning_candidate_summary = ( 
+        f"-----------------------------\n"
+        f"Winning Vote Count: {winning_count:,}\n"
+        f"Winning Percentage: {winning_percentage:.1f}%\n"
+        f"Winner: {winning_candidate}\n"
+        f"-----------------------------\n")
 
-print(winning_candidate_summary)
-# Save the winning candidate's results to the text file.
-txt_file.write(winning_candidate_summary)
+    print(winning_candidate_summary)
+    # Save the winning candidate's results to the text file.
+    txt_file.write(winning_candidate_summary)
     
