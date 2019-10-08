@@ -36,8 +36,6 @@ The analysis of the election show that:
 - The winner of the election was:
   - Diane DeGette, who received 73.8% of the vote and 272,892 number of votes
   
-  ![election_results](https://github.com/Shannon-Goddard/Shannon_Goddard_Election_Analysis/blob/master/election_analysis.txt)
-  
   ## Challenge Overview
   
   ## Challenge Summary
