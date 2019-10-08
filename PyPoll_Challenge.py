@@ -161,10 +161,12 @@ with open(file_to_save, "w") as txt_file:
     # Save the winning county's results to the text file.
     txt_file.write(winning_county_summary)
 
+    # Track the winning candidate, vote count, and percentage.
     winning_candidate = ""
     winning_count = 0
     winning_percentage = 0
 
+    # Determine the percentage of votes for each candidate by looping through the counts.
     for candidate in candidate_votes:
        
         # Retrieve vote count of a candidate.
